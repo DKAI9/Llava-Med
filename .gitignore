@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.cover
+*.py,cover
+coverage.xml
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+.pyright/
+
+# Linters / formatters
+.ruff_cache/
+
+# Logs
+*.log
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+.ipython/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Local environment variables / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# Local databases
+*.sqlite3
+
+# Optional: if you have large datasets/artifacts, add them here:
+# data/
+# datasets/
+# outputs/
+# runs/
+# *.pt
+# *.pth
+# *.h5
+# *.csv
